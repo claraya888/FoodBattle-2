@@ -25,7 +25,8 @@
             android:label="@string/nav_menu" />
         <activity
             android:name=".MenuListActivity"
-            android:label="菜單列表"></activity>
+            android:label="菜單列表" />
+        <activity android:name=".AddImageActivity"></activity>
     </application>
 
 </manifest>
