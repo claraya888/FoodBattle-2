@@ -26,7 +26,8 @@
         <activity
             android:name=".MenuListActivity"
             android:label="菜單列表" />
-        <activity android:name=".AddImageActivity"></activity>
+        <activity android:name=".AddImageActivity" />
+        <activity android:name=".Conductgroupbuy"></activity>
     </application>
 
 </manifest>
