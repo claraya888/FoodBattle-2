@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.jam68ty.foodbattle">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +18,7 @@
         android:theme="@style/Theme">
         <activity
             android:name=".LoginActivity"
-            android:label="@string/app_name">
+            android:label="FoodBattle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,17 +27,24 @@
         </activity>
         <activity
             android:name=".SignUpActivity"
-            android:label="@string/register" />
+            android:label="註冊新帳號" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/nav_menu" />
+            android:label="推薦菜單" />
         <activity
             android:name=".MenuListActivity"
             android:label="菜單列表" />
-        <activity android:name=".AddImageActivity" />
-        <activity android:name=".Conductgroupbuy" />
-        <activity android:name=".GroupitemActivity" />
-        <activity android:name=".MarketActivity"></activity>
+        <activity
+            android:name=".ConductgroupbuyActivity"
+            android:label="團購" />
+        <activity
+            android:name=".AddImageActivity"
+            android:label="選擇圖片" />
+        <activity
+            android:name=".MarketActivity"
+            android:label="MarketActivity"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity android:name=".GroupitemActivity"></activity>
     </application>
 
 </manifest>
