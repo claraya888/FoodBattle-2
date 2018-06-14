@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
     tools:context=".MenuFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -41,6 +42,20 @@
                     android:background="#cefefdfd"
                     app:srcCompat="@android:drawable/presence_audio_busy"
                     tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+                </android.support.v4.view.ViewPager>
+
 
             </LinearLayout>
 

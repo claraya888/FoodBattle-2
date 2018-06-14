@@ -18,19 +18,14 @@
         android:theme="@style/Theme">
         <activity
             android:name=".LoginActivity"
-            android:label="FoodBattle">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="FoodBattle" />
         <activity
             android:name=".SignUpActivity"
             android:label="註冊新帳號" />
         <activity
             android:name=".MainActivity"
             android:label="推薦菜單" />
+
         <activity
             android:name=".MenuListActivity"
             android:label="菜單列表" />
@@ -44,7 +39,14 @@
             android:name=".MarketActivity"
             android:label="MarketActivity"
             android:theme="@style/Theme.NoActionBar" />
-        <activity android:name=".GroupitemActivity"></activity>
+        <activity android:name=".GroupitemActivity" />
+        <activity android:name=".menu_cake">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

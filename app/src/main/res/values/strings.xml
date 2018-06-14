@@ -32,6 +32,8 @@
 
     <string name="todayrecommend">今日推薦</string>
     <string name="cake1">優格戚風蛋糕</string>
+    <string name="cake_category">分類:甜點</string>
+    <string name="cake_difficulty">難易度:★★(簡單)</string>
     <string name="cake1info">份量:4人份\n分類:甜點\n難易度:★★(簡單)</string>
     <string name="cake1info2">份量:2人份\n分類:甜點\n難易度:★★★(普通)</string>
     <string name="cake1info3">份量:2人份\n分類:義式\n難易度:★★★★(偏難)</string>
@@ -53,6 +55,33 @@
     <string name="icecream">香蕉派冰淇淋</string>
     <string name="buyers">50</string>
     <string name="buy">跟團</string>
+    <string name="menu_info1">簡介/製作緣由</string>
+    <string name="menu_info2">菜單總熱量</string>
+    <string name="menu_info3">食材清單</string>
+    <string name="menu_info4">調味料清單</string>
+    <string name="menu_info5">製作步驟</string>
+    <string name="menu_info6">影片教學</string>
+    <string name="menu_info7">難易度</string>
+
+
+    <!-- cake_info-->
+    <string name="cake_info1">無油蛋糕也可以很濕潤!\n利用優格的保濕性讓蛋糕變得健康又美味,\n食材更是簡單,只要4種食材就能搞定~\n表面是淋上優格,不是鮮奶油!\n再用新鮮水果裝飾就超完美!</string>
+    <string name="cake_info2">800大卡</string>
+    <string name="cake_info3">雞蛋     3顆\n低筋麵粉     50g\n無糖優格     45g\n細糖     50g</string>
+    <string name="cake_info4">細糖</string>
+    <string name="cake_info5_1">(1/10) 將蛋白蛋黃分開,蛋黃先打勻(烤箱160/140度預熱)</string>
+    <string name="cake_info5_2">(2/10)加入無糖優格攪拌均勻</string>
+    <string name="cake_info5_3">(3/10)加入過篩的低筋麵粉混合</string>
+    <string name="cake_info5_4">(4/10)糖分3次加入蛋白中打至濕性9分發</string>
+    <string name="cake_info5_5">(5/10)取些許的蛋白拌入麵糊裡混合,可以讓麵糊穩定</string>
+    <string name="cake_info5_6">(6/10)再將麵糊全部倒入打發的蛋白中輕拌混合</string>
+    <string name="cake_info5_7">(7/10)將麵糊倒入戚風模中,敲出空氣</string>
+    <string name="cake_info5_8">(8/10)放入預熱好的烤箱中烤30分鐘後出爐,將蛋糕敲一下排出空氣,倒扣放涼</string>
+    <string name="cake_info5_9">(9/10)放涼後即可脫模</string>
+    <string name="cake_info5_10">(10/10)表面裝飾可淋上健康的優格和水果裝飾,就可以送人囉!</string>
+    <string name="cake_info7">★★☆☆☆</string>
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
